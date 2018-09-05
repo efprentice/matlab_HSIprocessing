@@ -17,11 +17,13 @@ used for collecting images in a field scan (terrestrial), output is:
  used for checking for over-/under-saturation  
   - a spatial image of the scan scene,
   used for verifying spatial targets  
-
+  
+### select_class_spec.m  
+used for getting spectrum of a specific class e.g. water pixels (ui), output is:  
+ - spectral plots per class (using muliple vertical pixels and frames)  
+ 
 ### vert_horz_lines.m 
 used for getting spectra of horizontal and vertical lines across a spatial image (ui), output is  
  - plots of three consecutive lines (frames) showing intensity as a function of spatial extent  
  
-### select_class_spec.m  
-used for getting spectrum of a specific class e.g. water pixels (ui), output is:  
- - spectral plots per class (using muliple vertical pixels and frames)
+
