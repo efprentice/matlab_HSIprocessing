@@ -36,8 +36,8 @@ wl_blue = bandnum(3);         % Blue wavelength band number (of 180) = 470 nm de
 %PathName = uigetdir('.','Select HSI folder');
 %imagefiles = dir(strcat(PathName,[ filesep '*.png']));
 
-PathName = 'C:\Users\elizabep\Desktop\vmshare\test';
-%PathName = 'C:\Users\elizabep\Documents\fieldwork_data\180726_Trondfj-T4\vattakammen\scan1';
+%PathName = 'C:\Users\elizabep\Desktop\vmshare\test';
+PathName = 'C:\Users\elizabep\Documents\fieldwork_data\180726_Trondfj-T4\vattakammen\scan1';
 imagefiles = dir(strcat(PathName,[filesep '*.png']));
 nFrames = size(imagefiles,1);
 
