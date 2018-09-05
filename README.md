@@ -9,7 +9,7 @@ should be done for each camera before each test
 ### find_band_num.m  
 converts wavelength to approx. band number in image  
 
-## These scripts are for testing HSI .png raw outputs (input is a folder of .png images)
+## These scripts are for testing HSI images (input is a folder of .png images)
 
 ### on_the_fly_testing.m  
 used for collecting images in a field scan (terrestrial), output is:  
