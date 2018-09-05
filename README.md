@@ -18,6 +18,8 @@ used for collecting images in a field scan (terrestrial), output is:
   - a spatial image of the scan scene,
   used for verifying spatial targets  
   
+  ![Alt text](lines.png)
+  
 ### select_class_spec.m  
 used for getting spectrum of a specific class e.g. water pixels (ui), output is:  
  - spectral plots per class (using muliple vertical pixels and frames)  
