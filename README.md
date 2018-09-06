@@ -18,7 +18,7 @@ used for collecting images in a field scan (terrestrial), output is:
   - a spatial image of the scan scene,
   used for verifying spatial targets  
   
-  ![spectral sigs](sofly.png)
+  ![spectral sigs](sofly.png=250x250))
   
 ### select_class_spec.m  
 used for getting spectrum of a specific class e.g. water pixels (ui), output is:  
@@ -27,7 +27,13 @@ used for getting spectrum of a specific class e.g. water pixels (ui), output is:
  ![class spec](classes.png)
  
 ### vert_horz_lines.m 
-used for getting spectra of horizontal and vertical lines across a spatial image (ui), output is  
+used for getting spectra of horizontal and vertical lines across a spatial image (ui), output is:  
  - plots of three consecutive vertical lines (or horizontal frames) showing intensity as a function of spatial extent  
  
-  ![lines](lines.png)
+  ![lines](lines.png)  
+  
+### intensity_3d.m  
+used for visualizing intensity of a spatial region in the scan image (ui), output is:  
+  - 3D plot of intensity values as a function of spected spatial limits  
+  
+  ![threed](int3d.png=200x500)
